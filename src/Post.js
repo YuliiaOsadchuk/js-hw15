@@ -6,7 +6,7 @@ const Post = ({author, date, content, image}) => {
         <div className="post-wrapper">
             <div className="header-wrapper">
                 <div className="photo">
-                    <img src={author.photo} alt="" />
+                    <img src={author.photo} alt="logo" />
                 </div>
                 <div className="text-wrapper">
                     <div className="info-block">
